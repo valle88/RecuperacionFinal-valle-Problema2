@@ -26,7 +26,7 @@ public class DragonFly implements Drone {
     @Override
     public void move() {
            maxEnergy=maxEnergy-energyDelta;
-        System.out.println("el movi" +maxEnergy);
+        System.out.println("el movimiento realizado " +maxEnergy);
 
 
     }
